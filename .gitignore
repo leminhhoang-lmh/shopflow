@@ -1,0 +1,25 @@
+# Java / Maven
+target/
+*.class
+*.jar
+
+# .NET
+bin/
+obj/
+*.user
+
+# IDEs
+.idea/
+*.iml
+.vs/
+.vscode/
+
+# Secrets and local config - NEVER commit these
+.env
+*.pem
+*.key
+appsettings.Development.local.json
+
+# OS
+.DS_Store
+Thumbs.db
